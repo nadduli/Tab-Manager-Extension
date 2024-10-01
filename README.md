@@ -63,7 +63,7 @@ The extension requires the following permissions in manifest.json:
 ]
 
 }
-
+```
 ### Author
 Nadduli Daniel <naddulidaniel94@gmail.com>
 
