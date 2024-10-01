@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Advanced Tab Manager</h1>
+  
+  <div class="controls">
+    <button id="group-btn">Group by Domain</button>
+    <button id="close-duplicates">Close Duplicate Tabs</button>
+    <button id="save-session">Save Session</button>
+    <button id="restore-session">Restore Session</button>
+    <button id="search-btn">Search Tabs</button>
+  </div>
+
+  <input type="text" id="search-input" placeholder="Search for a tab..." style="display: none;">
+
+  <div id="tabs-container"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

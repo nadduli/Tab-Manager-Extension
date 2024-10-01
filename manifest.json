@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Advanced Tab Manager",
+    "description": "Manage, group, and search tabs. Save and restore sessions. Close duplicate tabs.",
+    "version": "1.0.0",
+    "author": "Nadduli Daniel",
+    "permissions": ["tabs", "storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
