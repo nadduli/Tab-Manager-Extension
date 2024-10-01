@@ -61,7 +61,6 @@ The extension requires the following permissions in manifest.json:
   "tabs",
   "storage"
 ]
-
 }
 ```
 ### Author
